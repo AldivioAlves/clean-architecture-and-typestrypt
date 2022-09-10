@@ -1,0 +1,19 @@
+{
+  "name": "clean-architecture-and-typestrypt",
+  "version": "1.0.0",
+  "description": "aplicação para controle de cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AldivioAlves/clean-architecture-and-typestrypt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AldivioAlves/clean-architecture-and-typestrypt/issues"
+  },
+  "homepage": "https://github.com/AldivioAlves/clean-architecture-and-typestrypt#readme"
+}
