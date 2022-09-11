@@ -1,6 +1,6 @@
 import { CacheStore } from '@/data/protocols/cache'
 import { LocalSavePurchases } from '@/data/usercases'
-import { SavePurchases } from '@/domains'
+import { SavePurchases } from '@/domains/usecases'
 
 type SutTypes = {
     sut: LocalSavePurchases,
