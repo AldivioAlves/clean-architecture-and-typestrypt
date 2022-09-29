@@ -6,6 +6,13 @@ export class CacheStoreSpy implements CacheStore {
     insertValues:Array<SavePurchases.Params> = []
     deleteKey: string
     insertKey: string
+    fetchKey: string
+
+    fetch(key: string): void {
+        this.actions.push(CacheStoreSpy.Action.fetch)
+        this.fetchKey = key
+    }
+
     delete(key: string): void {
         this.actions.push(CacheStoreSpy.Action.delete)
         this.deleteKey = key
@@ -37,7 +44,8 @@ export class CacheStoreSpy implements CacheStore {
 export namespace CacheStoreSpy{
     export enum Action{
         delete, 
-        insert
+        insert, 
+        fetch
     }
 
 }
