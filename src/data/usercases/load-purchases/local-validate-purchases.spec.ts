@@ -22,5 +22,6 @@ describe('LocalLoadPurchases', () => {
         const { cacheStore } = makeSut()
         expect(cacheStore.actions).toEqual([])
     })
+    
 
 })
